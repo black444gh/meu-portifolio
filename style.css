@@ -6,14 +6,50 @@ text-align: center;
 padding: 20px;
 }
 h1{
-color: 4CAF50
-font-size: 2.5em
+color: #000000
+fonte-size: 2.5em
 
 }
 img{
-
-
-
-
-    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #4caf50;
 }
+p, ul{
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 20px auto;
+}
+a {
+   color: #007bff
+   text-decoration: none;
+   font-weight: bold;
+}
+
+h2 {
+    color: #4CAF50; /* A mesma cor do titulo principal, para manter a consistência */
+    font-size: 2em;
+    margin-top: 40px; /* adiciona um bom espaço acima da seção */
+    border-bottom: 2px solid #ccc; /* adiciona uma linha sutil para separar o conteúdo */
+    padding-bottom: 10px;
+}
+ ul { 
+    list-style: none; /* remova os marcadores de bolinha padrão da lista */
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+ }
+ li {
+    background-color: #fff; /* fundo branco para cada item de projeto*/
+    border-radius: 8px; /* cantos levemente arredondados */
+    padding: 20px;
+    margin-bottom: 20px; /* espaço entre um projeto e outro*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave para dar profundidade */
+    text-align: left; /* alinha o texto à esquerda para facilitar a leitura */
+ }
+ h4 a {
+    color: #007bff; /* define a cor azul para os links*/
+    text-decoration: none;
+ }
