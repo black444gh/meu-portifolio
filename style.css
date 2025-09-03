@@ -51,5 +51,8 @@ h2 {
  }
  h4 a {
     color: #007bff; /* define a cor azul para os links*/
-    text-decoration: none;
+    text-decoration: none; /* remova o sublinhado */
+    font-size: 1.5em;
+    transition: color 0.3s ease; /* adiciona uma transição suave para o efeito de houver */
  }
+ 
